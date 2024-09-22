@@ -68,20 +68,23 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">Johan Portfolio</a>
-            <select id="language-selector" class="form-select" onchange="changeLanguage()">
-                <option value="fr">Français</option>
-                <option value="en">English</option>
-            </select>
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact" id="contact-link" data-language-fr="Contact" data-language-en="Contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+ <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Johan Portfolio</a>
+        <select id="language-selector" class="form-select" onchange="changeLanguage()">
+            <option value="fr">Français</option>
+            <option value="en">English</option>
+        </select>
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <!-- Lien "Contact" transformé en bouton -->
+                <a class="btn btn-custom nav-link" href="#contact" id="contact-link" data-language-fr="Contact" data-language-en="Contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
 
     <!-- Hero Section -->
     <header class="hero" data-language="fr">
